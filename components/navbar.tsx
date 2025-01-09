@@ -2,6 +2,8 @@ import {Info, TramFront } from "lucide-react"
 import Link from "next/link"
 import {Button} from "@/components/ui/button";
 import {ModeToggle} from "@/components/theme-provider";
+import Image from "next/image";
+import img from '../public/phoenix.png'
 
 export default function Navbar() {
     return (
@@ -12,8 +14,8 @@ export default function Navbar() {
                     href="/"
                     className="flex items-center gap-2 text-lg font-semibold md:text-base w-max"
                 >
-                    <TramFront/>
-                    <span className="text-foreground">Where is Valley Metro?</span>
+                    <Image src={img} alt={'Phoenix Logo'} className={"w-50 h-50"} />
+
                 </Link>
             </nav>
 

@@ -23,8 +23,8 @@ export const viewport: Viewport = {
 
 export const runtime = 'edge';
 
-let title = "Where Is Valley Metro?";
-let description = "A live map of Valley Metro trains.";
+let title = "Project Phoenix";
+let description = "Wildfire tracking map for the state of California.";
 
 export const metadata: Metadata = {
     title: title,
@@ -47,26 +47,27 @@ export const metadata: Metadata = {
     },
     category: 'technology',
     keywords: [
-        "Valley Metro train tracker",
-        "Real-time Valley Metro updates",
-        "Phoenix train tracking",
-        "Metro light rail status",
-        "Live Valley Metro locations",
-        "Valley Metro schedule",
-        "Phoenix transit tracking",
-        "Where is Valley Metro",
-        "Valley Metro arrival times",
-        "Metro rail live map",
-        "Valley Metro train locations",
-        "Metro light rail tracker",
-        "Phoenix public transit updates",
-        "Valley Metro real-time locations",
-        "Metro train status Phoenix",
-        "Track Valley Metro trains",
-        "Valley Metro live tracking",
-        "Phoenix light rail updates",
-        "Metro train schedule Phoenix",
-        "Valley Metro app"
+        "wildfire",
+        "california",
+        "fire",
+        "evacuation",
+        "map",
+        "tracking",
+        "realtime",
+        "live",
+        "data",
+        "firefighting",
+        "firefighters",
+        "firefight",
+        "emergency",
+        "disaster",
+        "natural",
+        "disaster",
+        "climate",
+        "change",
+        "climate",
+        "emergency",
+        "response",
     ],
 }
 
@@ -80,7 +81,7 @@ export default function RootLayout({ children }) {
         <body>
         <ThemeProvider
             attribute="class"
-            defaultTheme="light"
+            defaultTheme="dark"
             disableTransitionOnChange
             enableColorScheme
             enableSystem

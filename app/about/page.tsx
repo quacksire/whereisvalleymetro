@@ -8,15 +8,14 @@ export default function About() {
                 <div className="w-full px-4 py-8 sm:px-6 lg:px-8">
                     <div className="grid gap-8">
                         <div className="text-center">
-                            <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">Phoenix Light Rail
-                                Tracker</h1>
+                            <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">Project Phoenix</h1>
                             <p className="mt-3 text-lg text-muted-foreground">
-                                Real-time location of Valley Metro light rail trains in Phoenix, Arizona.
+                                Wildfire tracking map for the state of California.
                             </p>
                         </div>
                         <div className="leading-7 [&:not(:first-child)]:mt-6 mx-auto">
                             <p className={'text-center pt-4'}>
-                                This project is not affiliated or endorsed with Valley Metro.
+                                This project is not affiliated or endorsed by any government agency or organization.
                             </p>
                         </div>
                     </div>
@@ -41,7 +40,7 @@ export default function About() {
                     </Link>
                     <br/>
                     <Link
-                        href="https://github.com/quacksire/old-bart-cars-live"
+                        href="https://github.com/quacksire/phoenix"
                         target="_blank"
                         className={'m-2 text-default-500'}
                     >
